@@ -10,7 +10,7 @@ figcaption, .article-category, .subtitle, .author and time  {
     font-family: "Open Sans", sans-serif;
 }
 
-.article-category {
+p.article-category {
     font-size: .85rem;
     border-bottom: 2px solid #ff3530;
     display: inline;
@@ -22,7 +22,7 @@ h1 ~ p strong {
     margin: 1rem 0;
 }
 
-.sub-title {
+p.sub-title {
     font-weight: bold;
 }
 
@@ -34,6 +34,17 @@ img caption {
 
 em img caption {
     font-style: italic;
+}
+
+a.one:link {
+    text-decoration-color: #757575;
+    text-decoration: underline;
+
+}
+
+a:hover {
+    color: #ff3530;
+    text-decoration: none;
 }
 
 .author, time {

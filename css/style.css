@@ -22,5 +22,34 @@ h1 {
     margin: 1rem 0;
 }
 
+.sub-title {
+    font-weight: bold;
+}
+
+img caption {
+    font-size: .85rem;
+    text-align: center;
+    text-decoration-color: #757575;
+    text-decoration-style: italicized;
+}
+
+.author, time {
+    margin-bottom: .85rem;
+} 
+
+.author {
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 1.25em 0;
+}
+
+
+
+
+
+
+
 
 

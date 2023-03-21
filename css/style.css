@@ -16,7 +16,7 @@ figcaption, .article-category, .subtitle, .author and time  {
     display: inline;
 }
 
-h1 {
+h1 ~ p strong {
     font-size: .85rem;
     line-height: 1.3;
     margin: 1rem 0;

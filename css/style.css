@@ -30,7 +30,10 @@ img caption {
     font-size: .85rem;
     text-align: center;
     text-decoration-color: #757575;
-    text-decoration-style: italicized;
+}
+
+em img caption {
+    font-style: italic;
 }
 
 .author, time {
